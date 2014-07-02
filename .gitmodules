@@ -2,6 +2,3 @@
 [submodule "sample_php_mysql"]
 	path = sample_php_mysql
 	url = https://github.com/buildsample/sample_php_mysql.git
-[submodule "hiro"]
-	path = hiro
-	url = git@github.com:vidyar/hiro.git
