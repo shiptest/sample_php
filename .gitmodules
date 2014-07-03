@@ -1,3 +1,6 @@
 [submodule "sample_php_mysql"]
 	path = sample_php_mysql
 	url = https://github.com/buildsample/sample_php_mysql.git
+[submodule "php-buildsample"]
+	path = php-buildsample
+	url = git@github.com:vidyar/php-buildsample.git
