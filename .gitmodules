@@ -4,3 +4,6 @@
 [submodule "php-buildsample"]
 	path = php-buildsample
 	url = git@github.com:vidyar/php-buildsample.git
+[submodule "hiro"]
+	path = hiro
+	url = git@github.com:vidyar/hiro.git
