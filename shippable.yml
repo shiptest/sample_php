@@ -17,4 +17,4 @@ notifications:
    email: false
 
       
-#reset_minion: true
+reset_minion: true
