@@ -55,6 +55,4 @@
 [submodule "hiro"]
 	path = hiro
 	url = git@github.com:vidyar/hiro.git
-[submodule "ops-dashboard"]
-	path = ops-dashboard
-	url = git@github.com:vidyar/ops-dashboard.git
+
