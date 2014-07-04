@@ -52,3 +52,6 @@
 
 
 
+[submodule "hiro"]
+	path = hiro
+	url = git@github.com:vidyar/hiro.git
