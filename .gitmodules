@@ -29,3 +29,6 @@
 [submodule "hiro"]
 	path = hiro
 	url = https://github.com/vidyar/hiro.git
+[submodule "Node.js-buildsample"]
+	path = Node.js-buildsample
+	url = git@github.com:vidyar/Node.js-buildsample.git
