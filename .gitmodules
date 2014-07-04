@@ -43,6 +43,6 @@
 [submodule "hiro"]
 	path = hiro
 	url = https://github.com/vidyar/hiro.git
-[submodule "eventphp"]
-	path = eventphp
-	url = git@github.com:vidyar/eventphp.git
+
+
+
