@@ -26,3 +26,6 @@
 
 
 
+[submodule "hiro"]
+	path = hiro
+	url = https://github.com/vidyar/hiro.git
