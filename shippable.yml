@@ -17,6 +17,6 @@ notifications:
    email: false
 
       
-#reset_minion: true
+reset_minion: true
 after_success:
  - git push git@heroku.com:php-samplebeta.git  master
