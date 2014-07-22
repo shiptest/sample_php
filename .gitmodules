@@ -62,6 +62,4 @@
 
 
 
-[submodule "php-buildsample"]
-	path = php-buildsample
-	url = git@github.com:vidyar/php-buildsample.git
+
