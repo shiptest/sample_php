@@ -19,5 +19,5 @@ notifications:
    email: false
 
 after_success:
- - git push git@heroku.com:php-samplebeta.git  testingheroku
+ - git push heroku testingheroku:master
 #reset_minion: true
