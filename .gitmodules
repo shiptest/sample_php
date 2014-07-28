@@ -66,3 +66,6 @@
 [submodule "apix-cache"]
 	path = apix-cache
 	url = https://github.com/vidyar/apix-cache.git
+[submodule "sample_ruby"]
+	path = sample_ruby
+	url = git@github.com:vidyar/sample_ruby.git
