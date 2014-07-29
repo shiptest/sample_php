@@ -7,8 +7,8 @@ php:
   #- 5.6
 env:
   global:
-   - secure: nXlpd3baUiFzWJ64e2amrjk/NJec+VAakrkn5d7ZJWUWrnaloQ1TnJ7sT6FK2F9m8cY9YGSsIzIOkTN8CldiDvNVX9Gi1hluRyUt+bAoKtC0EkEcShUxZOw8uAMm8TbNEp8iqiZYgc0Wjx7mAcqVkT2dRlUb0PL/9dRSXcJ5Ku+4GrTcgR2/AylsHAQnofyxNs/pN12sWn636fsuk+he3RFd8L3O2Cl3OBkEExJS13dEKVZnqIKhzS++H2JIMCTaM81TfAfIIzeqI1xweeQVrftbG7/kX6yJVK/8Um0Q2lDBQre/cIh636AOD6wE3MSTdniWf+SBpZhZPCcFqRJP5Q==  - secure: FicU/+R00Sc8nFBUGmwBxLK06ndL7+Aw2M6aewIgRVvhBdPZKrvz8svMGy7FQUJHpusk3HRq4PnhoEC7lsRu/XhLlS3eA+eWNR4ywiTB/xXjGyvRQ0W38RePR7H4U+e65Uv5Pl/0I3vBsKpLRPl9ZcASUWduQZOOc7Q5OsHv3rrJXT/TrgMXa5oTBcfAcfuDTA3/0VFcEwP6yRJS1Cs6Io1fdWQUMben5Nk4VywyYgH/C7icQ8cUr8q7ZhY7W5PHMh7VpJRea+vf6YmZlOG7E8ujQpX5dDYqQgoEYx6tO+ZVNAq2/r3LUwFftTq72IAf7aLc7tqtw1QjZ++NFpdCiw==
-   - name = "bar"
+    - name="bar"
+    - secure: FfVdQJHTvnBQ3rhJjJfIvkIjOu/gSJBjaPB8HnUoEmPl72iJZ34AEMplUCZ1fQU6OKD8PJxEMVJYSiHKEBwRDVtPgKmp/CqVioFETWXrtQ0EG8hhLl8QnHdEWN6JpcKdXSh7h52R57Uo/Jww3CUz45XOPxr/odKh1aCMMcdJYZ0++qARsvEjbmjp8olKuw214tfhfBLp1IhTMrUJaNPydwbMHNUYZxM2JM0SuOiXNqAydd9tHwkh6TlEJqhIroscdDTkZXAxoo0YFfQpEiJqBXLZC1UkYtbjPibZXwhR/wBR8E30d3MfnG3JP1P8mrih9EeX75xQEQbMYCKlOZZ3+g==
     
 before_script: 
   - mkdir -p shippable/codecoverage
