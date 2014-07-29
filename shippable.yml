@@ -6,7 +6,9 @@ php:
 #  - 5.5
   #- 5.6
 env:
- - FOO= bar BAR= foo
+ global:
+ - secure: aT/w1+hG3JLzzZPNzo4mZRhEtkZiPefbkzvlwkwTnhU4X7v48jIcPeikKZwf6mkjsOJlzE3CZITNk4iqDfD33HkyDxMLBO17E7QR2D7ugNnycuSN6IND4RXaJyDZPZ0BM1isL+gkiWI6KnQJM5qnmXpfqhb6eI7+28/JlYlsg9J3rqwjsxlSm6HKLnrkS422Y6R6uOisntE+bpBQfmIlgS8A5ukDA5NIUHtwn84ww6bmgZ0QFwsbv4Dxz6BqPxKLoVCg0hRwDMqX+ThkUdWDInx61jZuspRm1gEt7E0NboP2bFZcJcTvtegfF6lQIvFoQMil5qzUbUL/+oLaBhEz4g==
+ - name= bar 
 before_script: 
   - mkdir -p shippable/codecoverage
   - mkdir -p shippable/testresults
@@ -14,6 +16,7 @@ before_script:
 script:
    - phpunit  --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage tests/calculator_test.php
    - echo $FOO
+   - echp $name
 
 notifications:
    email: false
