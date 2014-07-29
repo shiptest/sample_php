@@ -8,8 +8,8 @@ php:
 env:
   global:
     - name="bar"
-    - secure: FfVdQJHTvnBQ3rhJjJfIvkIjOu/gSJBjaPB8HnUoEmPl72iJZ34AEMplUCZ1fQU6OKD8PJxEMVJYSiHKEBwRDVtPgKmp/CqVioFETWXrtQ0EG8hhLl8QnHdEWN6JpcKdXSh7h52R57Uo/Jww3CUz45XOPxr/odKh1aCMMcdJYZ0++qARsvEjbmjp8olKuw214tfhfBLp1IhTMrUJaNPydwbMHNUYZxM2JM0SuOiXNqAydd9tHwkh6TlEJqhIroscdDTkZXAxoo0YFfQpEiJqBXLZC1UkYtbjPibZXwhR/wBR8E30d3MfnG3JP1P8mrih9EeX75xQEQbMYCKlOZZ3+g==
-    
+    #- secure: FfVdQJHTvnBQ3rhJjJfIvkIjOu/gSJBjaPB8HnUoEmPl72iJZ34AEMplUCZ1fQU6OKD8PJxEMVJYSiHKEBwRDVtPgKmp/CqVioFETWXrtQ0EG8hhLl8QnHdEWN6JpcKdXSh7h52R57Uo/Jww3CUz45XOPxr/odKh1aCMMcdJYZ0++qARsvEjbmjp8olKuw214tfhfBLp1IhTMrUJaNPydwbMHNUYZxM2JM0SuOiXNqAydd9tHwkh6TlEJqhIroscdDTkZXAxoo0YFfQpEiJqBXLZC1UkYtbjPibZXwhR/wBR8E30d3MfnG3JP1P8mrih9EeX75xQEQbMYCKlOZZ3+g==
+    - secure: lgf+fbHGYkNpco73KEc6kjg5KVmqzqHr9LJE09fBV+Ctlqn6Nvkir0IzCuMG4IPhEhdkAuMwkCUL9Oe9wVQ6Gv0sgWLG4Z7+5U6fCjyoQQCHiVMfBBxew4dcudgOO7Gyh2YU43DzFm4HDzDm1EhkAMieKEjJN/uKL8QY8rZ38l52D4WEqkA6tgGsURxjOBrb0jbKUSgpU3swyKY4VnqCUGD1B1KIETyh9Adi0vq7zYD5+pBexYRrno73ugoYC78Lx9YprX162d2uNXIQ+LpuVDYb/hcqQ9xTE16AzqIsRpNDp3NJMwU+wZJDvL9MIU+7GwGPFbKfPZuc1+6VI6kFJg==
 before_script: 
   - mkdir -p shippable/codecoverage
   - mkdir -p shippable/testresults
