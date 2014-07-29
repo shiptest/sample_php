@@ -6,8 +6,7 @@ php:
 #  - 5.5
   #- 5.6
 env:
- global:
- - secure: aT/w1+hG3JLzzZPNzo4mZRhEtkZiPefbkzvlwkwTnhU4X7v48jIcPeikKZwf6mkjsOJlzE3CZITNk4iqDfD33HkyDxMLBO17E7QR2D7ugNnycuSN6IND4RXaJyDZPZ0BM1isL+gkiWI6KnQJM5qnmXpfqhb6eI7+28/JlYlsg9J3rqwjsxlSm6HKLnrkS422Y6R6uOisntE+bpBQfmIlgS8A5ukDA5NIUHtwn84ww6bmgZ0QFwsbv4Dxz6BqPxKLoVCg0hRwDMqX+ThkUdWDInx61jZuspRm1gEt7E0NboP2bFZcJcTvtegfF6lQIvFoQMil5qzUbUL/+oLaBhEz4g==
+ - secure: nXlpd3baUiFzWJ64e2amrjk/NJec+VAakrkn5d7ZJWUWrnaloQ1TnJ7sT6FK2F9m8cY9YGSsIzIOkTN8CldiDvNVX9Gi1hluRyUt+bAoKtC0EkEcShUxZOw8uAMm8TbNEp8iqiZYgc0Wjx7mAcqVkT2dRlUb0PL/9dRSXcJ5Ku+4GrTcgR2/AylsHAQnofyxNs/pN12sWn636fsuk+he3RFd8L3O2Cl3OBkEExJS13dEKVZnqIKhzS++H2JIMCTaM81TfAfIIzeqI1xweeQVrftbG7/kX6yJVK/8Um0Q2lDBQre/cIh636AOD6wE3MSTdniWf+SBpZhZPCcFqRJP5Q==
  - name= bar 
 before_script: 
   - mkdir -p shippable/codecoverage
@@ -16,7 +15,7 @@ before_script:
 script:
    - phpunit  --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage tests/calculator_test.php
    - echo $FOO
-   - echp $name
+   - echo $name
 
 notifications:
    email: false
