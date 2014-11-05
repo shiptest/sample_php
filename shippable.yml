@@ -28,5 +28,5 @@ git:
  submodules: false
  
 after_success:
- - git push git@heroku.com:php-samplebeta.git  master
+ - git push git@heroku.com:php-repo-beta.git master
 build_image: shippableimages/ubuntu1204_php
