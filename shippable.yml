@@ -18,11 +18,7 @@ before_install:
 
 script:
    - phpunit  --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage tests/calculator_test.php
-   - echo $name1
-   - echo $name2
-   - echo $name
-   - echo $country 
-   - echo $state
+   - echo $key1
 
 notifications:
    email: false
