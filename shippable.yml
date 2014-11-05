@@ -5,7 +5,8 @@ php:
   - 5.4
 #  - 5.5
   #- 5.6
-
+env:
+  - secure: P0L+Zn/JrE/6gzC2Dij9EgM6ojSiYrD91DpMs/TxENnFiGV+sGmpZ46eVeb3CBtZGZuN1r730+cbnv7lGyiuUvwG4qswMpM6HHW39K5BKHt+OgioVJPQ+yiIml7diNUcUnH8xbMQbypcgzIl46t+17ptc6Qr9jiwu9YXhhAc/EJOq+vAw8j7RvWTnGANz9/nVAWZ8kl9liWUseRRdZohm97o1BpWP4opOK6vxzNMOUDwWGn4ZR93yjMa200AxEtULxm2eZaBLICX107obz1aWiFjPTaXSe9Ra2SEeLRoF2pqE8fxB2D4QwkmVPucqEiJojX6QVR4wU/V4rrzC6QNSQ==
 before_script: 
   - mkdir -p shippable/codecoverage
   - mkdir -p shippable/testresults
