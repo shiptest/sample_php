@@ -17,7 +17,7 @@ before_install:
   - php --version
 
 script:
-   - phpunit calculator_test.php
+   - phpunit tests/calculator_test.php
    - echo $key1
 
 notifications:
