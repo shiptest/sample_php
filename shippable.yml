@@ -17,8 +17,7 @@ before_install:
   - php --version
 
 script:
-   - phpunit  
-   #tests/calculator_test.php
+   - phpunit tests/calculator_test.php
    - echo $key1
 
 notifications:
@@ -28,6 +27,6 @@ notifications:
 git:
  submodules: false
  
-after_success:
- - git push git@heroku.com:php-repo-beta.git master
+#after_success:
+ #- git push git@heroku.com:php-repo-beta.git master
 build_image: shippableimages/ubuntu1204_php
