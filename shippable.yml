@@ -2,7 +2,8 @@ before_script:
   - mkdir -p shippable/codecoverage
   - mkdir -p shippable/testresults
 
-     
+git:
+ submodules: false     
 #reset_minion: true
 language: python
 
