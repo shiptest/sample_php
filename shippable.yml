@@ -11,10 +11,7 @@ php:
  - 5.4
 
 script: 
- - phpunit  --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage tests/calculator_test.php
-
+ - ls -a
  - php -v
-
  - cat calculator.php
-
-
+ - phpunit  --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage tests/calculator_test.php
