@@ -5,10 +5,10 @@ before_script:
 git:
  submodules: false     
 #reset_minion: true
-language: python
+language: php
 
-python:
- - 2.7
+php:
+ - 5.4
 
 script: 
  - phpunit  --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage tests/calculator_test.php
